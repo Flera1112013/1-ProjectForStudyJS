@@ -1,7 +1,6 @@
 // const quest= confirm("Сколько фильмов вы уже посмотрели?"); - просто вопрос
 const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", '');
 
-
 const personalMovieDB={
  count: numberOfFilms,
  movies:{},
