@@ -14,6 +14,7 @@ const questAboutTheLastFilm1 = prompt("Один из последних прос
 const questAboutRateFilm1 = +prompt("на сколько оцените его?");
 const questAboutTheLastFilm2 = prompt("Один из последних просмотренных фильмов?");
 const questAboutRateFilm2 = +prompt("на сколько оцените его?");
+const questAboutRateFilm3 = +prompt("на сколько оцените его?");
 
 personalMovieDB.movies [questAboutTheLastFilm1]= questAboutRateFilm1;
 personalMovieDB.movies [questAboutTheLastFilm2]= questAboutRateFilm2;
