@@ -1,4 +1,6 @@
+function slidesPlagin(activeSlide=0){
 const slides = document.querySelectorAll('.slide');
+slides[activeSlide].classList.add('active')
 for(const slide of slides){
     slide.addEventListener('click', ()=>{
         clearActiveClasses()
@@ -10,3 +12,5 @@ function clearActiveClasses(){
         slide.classList.remove('active')
     })
 }
+}
+slidesPlagin(3);
